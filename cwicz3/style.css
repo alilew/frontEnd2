@@ -1,0 +1,72 @@
+.header{
+    border:2px solid black;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 0;
+}
+.nav{
+    border: 2px solid black;
+}
+.menu{
+    border: 2px solid black;
+    display: flex;
+}
+.menu a{
+    border: 2px solid black;
+    flex:1;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+.sprite{
+    background-image: url(https://raw.githubusercontent.com/apietryga/kurs-Front-end/master/materialy/lekcja2/cw1/logo_sprites.jpg);
+    width: 500px;
+    height: 200px;
+}
+.sprite:hover{
+    background-position: 0 -200px;
+}
+.sprite:active{
+    background-position: 0 -400px;
+}
+.container{
+    border: 2px solid black;
+}
+.container h2{
+    padding-left: 20px;
+}
+.chartX{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.chartX div{
+    border: 2px solid black;
+    height: 30px;
+    width: 10%;
+}
+.chartX div:nth-child(1){height: 2in;}
+.chartX div:nth-child(2){height: 2cm;}
+.chartX div:nth-child(3){height: 2mm;}
+.chartX div:nth-child(4){height: 2pt;}
+.chartX div:nth-child(5){height: 2px;}
+
+.chartY{
+    flex-direction: column;
+}
+.chartY div{
+    border: 2px solid black;
+    height: 36px;
+    
+    margin: 18px 0;
+}
+.chartY div:nth-child(1){width:20vw;}
+.chartY div:nth-child(2){width:20%;}
+.chartY div:nth-child(3){width:20em;}
+.chartY div:nth-child(4){width:20rem;}
+
+.em{
+    font-size: 2em;
+    color: red;
+    float: right;
+}

@@ -1,0 +1,73 @@
+:root{font-size: 18px;}
+.sprite{
+    border: 2px solid red;
+    
+    width: 90px;
+    height: 90px;
+    background-image:url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw1/sprites.jpg?raw=true);
+    
+}
+.sprite:hover{
+    border:2px dashed green;
+    background-position: -90px;
+}
+
+.sprite:active{
+    border:2px dashed blue;
+    background-position: 0 -180px;
+}
+.rodzic{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.rem{
+    border: 2px dashed rgb(165, 6, 6);
+    }
+
+.title{
+    border: 2px solid black;
+}
+.chart{
+    border:2px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.chart div{
+    border:2px solid black;
+    min-width: 10%;
+}
+.chart div:nth-child(1){height: 2in;}
+.chart div:nth-child(2){height: 2cm;}
+.chart div:nth-child(3){height: 2pc;}
+.chart div:nth-child(4){height: 2mm;}
+.chart div:nth-child(5){height: 2pt;}
+
+.chartY{
+    flex-direction: column;
+    min-height: 80vh;
+    border: 2px solid black;
+    justify-content: space-between;
+    display: flex;
+}
+.title2{
+    border: 2px solid black;
+}
+.chartY div{
+    border: 2px solid black;
+    min-height: 10vh;
+}
+.chartY div:nth-child(1){width:10%;}
+.chartY div:nth-child(2){width:5em}
+.chartY div:nth-child(3){width:20vw}
+.chartY div:nth-child(4){width:40vh}
+.chartY div:nth-child(5){width:50%}
+
+.title3{
+    border: 2px solid black;
+}
+.em{
+    font-size: 1.5em;
+    color: red;
+    float: right;
+}

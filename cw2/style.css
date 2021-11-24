@@ -34,29 +34,37 @@ h1{
     }
 
 .content{
-    border: 2px solid purple;
+    border: 3px solid purple;
     display: flex;
     justify-content: center;  
     align-items: center;
     min-height: 100px; 
     background-color: papayawhip;
-    padding: 30px 30px;
-    gap: 50px;
+    padding: 40px 40px;
+    gap: 70px;
 }
 .preview{
     flex:6;
     text-align: center;
     border: 2px dashed black;
-    padding: 20px 20px 20px;}
+    padding: 50px;
+    }
+
+.preview img{
+    max-width: 60%;
+    max-height: 60%;
+    }
 
 .desc{
     flex:6;
     text-align: center;
     border: 2px dashed black;
     padding: 20px 20px 20px;
+    color: crimson;
 }
 
 .footer{
     padding: 40px;
     text-align: right;
-    background-color: burlywood;}
+    background-color: burlywood;
+    color: brown;}
