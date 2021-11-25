@@ -44,6 +44,7 @@
     border: 2px solid black;
     height: 30px;
     width: 10%;
+    
 }
 .chartX div:nth-child(1){height: 2in;}
 .chartX div:nth-child(2){height: 2cm;}
