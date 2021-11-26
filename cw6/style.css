@@ -1,0 +1,149 @@
+body {
+  background-image: url(img/watercolor.png);
+}
+
+body header {
+  text-align: center;
+  color: purple;
+}
+
+body header img {
+  width: 120px;
+  height: 30px;
+  padding: 10px 10px;
+}
+
+body nav {
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: white;
+  border: 2px solid purple;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  z-index: 1;
+}
+
+body nav a {
+  text-decoration: none;
+  color: white;
+  background-color: purple;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: 2px solid purple;
+  text-align: center;
+  padding: 5px 5px;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  border: 2px solid purple;
+}
+
+body .container main {
+  border: 2px solid purple;
+  padding: 10px 10px;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+body .container main img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 5px 5px;
+}
+
+body .container aside {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: 2px solid purple;
+  padding: 10px 10px;
+}
+
+body .container aside div {
+  border: 2px solid black;
+  padding: 10px 10px;
+}
+
+body .komentarze {
+  border: 2px solid purple;
+  background-color: white;
+  padding: 10px 10px;
+}
+
+body .kom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .kom img {
+  max-width: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 10px;
+}
+
+body .kom header {
+  color: purple;
+  text-align: center;
+  border: 2px solid black;
+}
+
+body .kom header .comCont {
+  text-align: justify;
+  padding: 5px;
+  color: black;
+}
+
+body .ikony {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 20px 20px;
+}
+
+body .ikony a {
+  border: 2px solid purple;
+  background-color: purple;
+  padding: 5px 5px;
+  color: black;
+}
+
+body footer {
+  background-color: black;
+  padding-right: 10px;
+}
+
+body p {
+  color: white;
+  text-align: right;
+}
+
+@media (max-width: 720px) {
+  body .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style.css.map */
